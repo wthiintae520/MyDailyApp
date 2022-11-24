@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FinalGroupProject</string>
+    <string name="search_button">Procurar</string>
+    <string name="help_button">Ajuda</string>
+    <string name="delete">Apagar</string>
+    <string name="close">Fechar</string>
+    <string name="search_name">Search Term</string>
+    <string name="button_name">Search</string>
+    <string name="open">open</string>
+</resources>

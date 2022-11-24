@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Welcome to our Final Project"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/pexels"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Pexels Viewer"
+        app:layout_constraintEnd_toEndOf="@+id/textView"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/dictionaryButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Owlbot Dictionary"
+        app:layout_constraintEnd_toEndOf="@+id/pexels"
+        app:layout_constraintStart_toStartOf="@+id/pexels"
+        app:layout_constraintTop_toBottomOf="@+id/pexels" />
+
+    <Button
+        android:id="@+id/covid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Covid 19 tracker"
+        app:layout_constraintEnd_toEndOf="@+id/dictionaryButton"
+        app:layout_constraintStart_toStartOf="@+id/dictionaryButton"
+        app:layout_constraintTop_toBottomOf="@+id/dictionaryButton" />
+
+    <Button
+        android:id="@+id/co2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="CO2 Estimator"
+        app:layout_constraintEnd_toEndOf="@+id/covid"
+        app:layout_constraintStart_toStartOf="@+id/covid"
+        app:layout_constraintTop_toBottomOf="@+id/covid" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

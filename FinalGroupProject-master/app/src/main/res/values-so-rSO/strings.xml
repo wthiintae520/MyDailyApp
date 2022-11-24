@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FinalGroupProject</string>
+    <string name="search_name">magaca raadinta</string>
+    <string name="button_name">raadi</string>
+    <string name="close">" dhow"</string>
+    <string name="open">furan</string>
+    <string name="search_button">Search</string>
+    <string name="help_button">Help</string>
+    <string name="delete">Delete</string>
+</resources>

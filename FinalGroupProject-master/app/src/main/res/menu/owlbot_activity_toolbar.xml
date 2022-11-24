@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/hide_info"
+        android:icon="@drawable/go_back"
+        android:title="Main Menu"
+        app:showAsAction="collapseActionView" />
+    <item
+        android:id="@+id/pexelsMenu"
+        android:title="Pexels"
+        android:icon="@drawable/gallery"/>
+    <item
+        android:id="@+id/covidMenu"
+        android:title="Covid 19 InformatIon Tracker"
+        android:icon="@drawable/syringe"/>
+    <item
+        android:id="@+id/carbonMenu"
+        android:title="Carbon Dioxide Interface "
+        android:icon="@drawable/chemistry"/>
+    <item
+        android:id="@+id/helpMenu"
+        android:title="Help"
+        app:showAsAction="always"
+        android:icon="@drawable/help"/>
+</menu>

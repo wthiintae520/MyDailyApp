@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/FragmentCo2Details"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/ImageViewLogo"
+        android:layout_width="100dp"
+        android:layout_height="42dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/TextViewCarBrandF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="50dp"
+        android:text="Car brand goes here"
+        android:textColor="@color/co2_blue"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ImageViewLogo" />
+
+    <TextView
+        android:id="@+id/TextViewCarTypeF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Car type goes here"
+        android:textColor="@color/co2_blue"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@+id/TextViewCarBrandF"
+        app:layout_constraintTop_toBottomOf="@+id/TextViewCarBrandF" />
+
+    <TextView
+        android:id="@+id/TextViewDistanceF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Distance goes here"
+        android:textColor="@color/co2_blue"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@+id/TextViewCarTypeF"
+        app:layout_constraintTop_toBottomOf="@+id/TextViewCarTypeF" />
+
+    <TextView
+        android:id="@+id/TextViewCarbon_g"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="carbon_g"
+        android:textColor="@color/co2_blue"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@+id/TextViewDistanceF"
+        app:layout_constraintTop_toBottomOf="@+id/TextViewDistanceF" />
+
+    <TextView
+        android:id="@+id/TextViewCarbon_lb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="carbon_lb"
+        android:textColor="@color/co2_blue"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@+id/TextViewCarbon_g"
+        app:layout_constraintTop_toBottomOf="@+id/TextViewCarbon_g" />
+
+    <TextView
+        android:id="@+id/TextViewCarbon_kg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="carbon_kg"
+        android:textColor="@color/co2_blue"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="@+id/TextViewCarbon_lb"
+        app:layout_constraintTop_toBottomOf="@+id/TextViewCarbon_lb" />
+
+    <Button
+        android:id="@+id/ButtonClose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginBottom="100dp"
+        android:backgroundTint="@color/co2_blue"
+        android:text="Close"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/ButtonDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="100dp"
+        android:backgroundTint="@color/co2_blue"
+        android:text="Delete"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

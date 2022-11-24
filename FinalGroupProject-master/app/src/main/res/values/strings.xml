@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">FinalGroupProject</string>
+    <string name="search_button">Search</string>
+    <string name="help_button">Help</string>
+    <string name="button_name">Search</string>
+    <string name="search_name">Search Term</string>
+    <string name="open">open</string>
+    <string name="delete">Delete</string>
+    <string name="close">Close</string>
+</resources>
